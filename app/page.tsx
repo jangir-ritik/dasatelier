@@ -1,7 +1,12 @@
-import Image from 'next/image'
+import Heading from "@/components/blockLevel/Heading"
+import ContentContainer from "@/components/containers/ContentContainer"
 
 export default function Home() {
   return (
-    <main className='w-screen h-screen bg-black'>This will be it</main>
+    <main className='flex flex-col h-full justify-normal items-center'>
+      <Heading />
+      <ContentContainer />
+    </main>
   )
 }
+``
